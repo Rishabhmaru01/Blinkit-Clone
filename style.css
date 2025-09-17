@@ -149,14 +149,16 @@ header{
 
 .productRow{
     width: 100%;
-    margin: 30px 0px 0px 0px;
+    margin: 30px 0px;
     display: flex;
     gap: 2%;
+    flex-wrap: wrap;
 }
 
 .productItems{
     flex-basis: 15%;
     border: 1px solid #ccc;
+    margin-bottom: 20px;
     box-shadow: 0px 0px 10px 2px #ccc;
     border-radius: 13px;
 }
@@ -209,5 +211,120 @@ header{
     background-color: rgba(249, 246, 246, 0.963);
 }
 
+footer{
+    padding: 40px 0px 0px 0px;
+}
 
+.footer-mid{
+    max-width: 1280px;
+    margin: auto;
+}
 
+.footer-mid-row1{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+
+.footer-mid-row1-left{
+    flex-basis: 30%;
+}
+
+.footer-mid-row1-left h3{
+    margin-bottom: 20px;
+}
+
+.useFulLinks{
+    display: flex;
+}
+
+.useFulLinks ul{
+    flex-basis: 33%;
+    list-style: none;
+}
+
+.useFulLinks ul li a{
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-mid-row1-right{
+    flex-basis: 70%;
+}
+
+.CategoriedHeading{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 15px;
+    align-items: center;
+}
+
+.CategoriedHeading a{
+    text-decoration: none;
+    color: #328839;
+}
+
+.CategoriesLinks{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.CategoriesLinks ul li{
+    flex-basis: 30%;
+    list-style: none; 
+}
+
+.CategoriesLinks ul li a{
+    font-size: 14px;
+    display: block;
+    margin-bottom: 12px;
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-mid-row3 p{
+    color: gray;
+    padding: 20px 0px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-mid-row2{
+    background-color: rgba(250, 250, 250, 0.914);
+    width: 100%;
+    display: flex;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.footer-mid-row2 p{
+    flex-basis: 40%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.appIcons{
+    flex-basis: 30%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.sLinks{
+    display: flex;
+}
+
+.SLinks i{
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
